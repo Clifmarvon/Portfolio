@@ -1,0 +1,368 @@
+#education {
+    background-color: #2d2f2d;
+    border-color: rgb(24, 25, 26) ;
+    box-shadow: inset 2px 4px 5px 5px #2d2f2d;
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 298px;
+    border-width: 0.2px;
+    color: darkgoldenrod;
+    box-shadow: inset 3px 4px 4px 2px #525352;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition:ease-in-out 0.10s;
+    -webkit-transition:ease-in-out 0.10s;
+    -moz-transition:ease-in-out 0.10s;
+    -ms-transition:ease-in-out 0.10s;
+    -o-transition:ease-in-out 0.10s;
+}
+
+#circle {
+    color:goldenrod;
+    position: relative;
+    display: flex;
+    left: 10px;
+    top:20px;
+}
+
+#circle-1 {
+    color:goldenrod;
+    position: relative;
+    display: flex;
+    left: -582px;
+    top:90px;
+}
+
+#circle-2{
+    color:goldenrod;
+    position: relative;
+    display: flex;
+    left: -78px;
+    top:30px;
+}
+
+
+P1{
+    position: relative;
+    left: 70px;
+    bottom: 0px;
+    display: flex;
+    color: whitesmoke;
+}
+
+P2 {
+    position: relative;
+    left: 70px;
+    bottom: 15px;
+    display: flex;
+    color: goldenrod;
+    font-size: 10px;
+}
+
+p4 {
+    position: relative;
+    left: 70px;
+    bottom: 67px;
+    display: flex;
+    color: goldenrod;
+    font-size: 10px;
+}
+
+p5 {
+    position: relative;
+    left: 70px;
+    bottom: 85px;
+    display: flex;
+    color: goldenrod;
+    font-size: 10px;
+}
+
+#pp {
+    position: relative;
+    left: 70px;
+    bottom:27px;
+    display: flex;
+    font-size: 12px;
+}
+
+#pp-christ {
+    position: relative;
+    left: 70px;
+    bottom: 100px;
+    display: flex;
+    font-size: 12px;
+}
+
+#pp-omess {
+    position: relative;
+    left: 70px;
+    bottom: 80px;
+    display: flex;
+    font-size: 12px;
+}
+
+#omess{
+    position: relative;
+    left: 50px;
+    top: px;
+    bottom: 33px;
+    display: flex;
+}
+
+#christ{
+    position: relative;
+    left: 50px;
+    top: px;
+    bottom: 50px;
+    display: flex;
+}
+
+#edu-h {
+    position: relative;
+    left: -280px;
+    color: aliceblue;
+    font-size: large;
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: none;
+    position: relative;
+    user-select: none;
+  
+}
+
+
+.vertical-line {
+    position: relative;
+    width:1px;
+    color: #525352;
+    background-color: #2d2f2d;
+    height: 350px;
+    right: 300px;
+    left: -260px;
+}
+
+
+/*experience*/
+#experience {
+    background-color: #2d2f2d;
+    border-color: rgb(24, 25, 26) ;
+    box-shadow: inset 2px 4px 5px 5px #2d2f2d;
+    border-radius: 15px;
+    height: 50px;
+    width: 55px;
+    top: -90px;
+    position: relative;
+    right: 290px;
+    border-width: 0.2px;
+    color: darkgoldenrod;
+    box-shadow: inset 3px 4px 4px 2px #525352;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition:ease-in-out 0.10s;
+    -webkit-transition:ease-in-out 0.10s;
+    -moz-transition:ease-in-out 0.10s;
+    -ms-transition:ease-in-out 0.10s;
+    -o-transition:ease-in-out 0.10s;
+}
+
+#exp-h {
+    position: relative;
+    left: -260px;
+    top: -85px;
+    color: aliceblue;
+    font-size: large;
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: none;
+    position: relative;
+    user-select: none;
+  
+}
+
+#exp-p1 {
+    
+        position: relative;
+        left: 60px;
+        top: -77px;
+        display: flex;
+        color: whitesmoke;
+   
+}
+
+#exp-p2 {
+    position: relative;
+    left: 40px;
+    bottom: 110px;
+    display: flex;
+    color: goldenrod;
+    font-size: 10px;
+}
+
+#exp-circle {
+    color:goldenrod;
+    position: relative;
+    display: flex;
+    left: 9px;
+    top:-60px;
+}
+
+#exp-pp {
+    position: relative;
+    left: 70px;
+    bottom:120px;
+    display: flex;
+    font-size: 12px;
+}
+
+
+
+#cyber{
+    position: relative;
+    left: 50px;
+    top: -120px;
+    bottom: 33px;
+    display: flex;
+}
+
+#exp-circle-2{
+    color:goldenrod;
+    position: relative;
+    display: flex;
+    left: -78px;
+    top:-55px;
+}
+
+#pp-cyber {
+    position: relative;
+    left: 70px;
+    bottom: 165px;
+    display: flex;
+    font-size: 12px;
+}
+
+#p2-cyber{
+    position: relative;
+    left: 70px;
+    bottom: 154px;
+    display: flex;
+    color: goldenrod;
+    font-size: 10px;
+}
+
+
+#coding{
+    position: relative;
+    left: 50px;
+    top: px;
+    bottom: 137px;
+    display: flex;
+}
+
+#exp-circle-1 {
+    color:goldenrod;
+    position: relative;
+    display: flex;
+    left: -582px;
+    top:90px;
+}
+
+#coding-p5{
+    position: relative;
+    left: 70px;
+    bottom: 173px;
+    display: flex;
+    color: goldenrod;
+    font-size: 10px;
+}
+
+#pp-coding {
+    position: relative;
+    left: 70px;
+    bottom: 183px;
+    display: flex;
+    font-size: 12px;
+}
+
+
+
+h3{
+    position: relative;
+    left: 30px;
+    bottom: 170px;
+    display: flex;
+    color: whitesmoke;
+}
+
+#skills {
+    background-color: #2d2f2d;
+    height: 180px;
+    width: 750px;
+    left: 00px;
+    top: -175px;
+    display: flex;
+    box-shadow: 1px 2px 20px 5px #181918;
+    position: relative;
+  }
+  
+  #web-set {
+    
+    height: 15px;
+    width: 90%;
+    top: -40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    position: inherit;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    left: 0px;
+}
+  
+
+  #web-set p {
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  
+#web-set progress {
+    height: 100%;
+    padding: 2px;
+    position: relative;
+    border-radius: 100px;
+    width: 100%;
+    
+    transition: width 0.5s ease-in-out;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color: rgb(74, 143, 74); /* replace with the color you want */
+}
+
+progressbar {
+    color: blue;
+}
+
+h7{
+    position: inherit;
+    color: whitesmoke;
+    top: -70px;
+    left: 70px;
+}
+  
+  

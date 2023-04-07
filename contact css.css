@@ -1,0 +1,202 @@
+
+
+    
+.my-map {
+    background-color: #2d2d2d;
+    position: relative;
+    display: flex;
+    left: 60px;
+    box-shadow: inset 200px 180px 250px 120px rgb(27, 27, 28);
+  }
+  
+  .my-map body {
+    background-color: #2d2d2d;
+    position: relative;
+    display: flex;
+  }
+  
+  .my-map h1 {
+    color: #fff;
+  }
+  
+  .my-map a {
+    color: #00f;
+  }
+
+  .contact-section{
+    padding: 40px 0;
+    height: fit-content;
+    height: 40px;
+    display: block;
+   
+
+  }
+
+  .contact-section h {
+    text-align: center;
+    color: #ddd;
+    top: 100px;
+    font-size: 30px;
+    right: 250px;
+  }
+  
+  
+
+  .contact-form {
+margin: auto;
+max-width: 900px;
+padding:  0 10px;
+position: relative;
+top: 70px;
+
+
+height: 60px;
+
+  }
+  input{
+    outline: none;
+    display:flex;
+   color: #ddd;
+   background-color: #2d2d2d;
+   width: 310px;
+   height: px;
+  }
+
+  #fullname {
+    display: flex;
+    float: left;
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  #email {
+    position: relative;
+    display: flex;
+    left: 40px;
+    height: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  textarea {
+    background-color: #2d2d2d;
+    color: whitesmoke;
+    position: relative;
+    border-radius: 20px;
+    top: 80px;
+    
+    height: 40px;
+    outline: none;
+    display: flex;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+textarea::placeholder {
+   position: relative;
+   top: 14px;
+   left: 10px;
+}
+
+  #submit{
+    color: darkgoldenrod;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    align-items:center ;
+    box-shadow: inset 4px 4px 4px 4px #464444;
+    position: absolute;
+    display: flex;
+    left: 640px;
+    top: 400px;
+    
+  }
+
+ #rextarea {
+    top: 120px;
+    max-height: 240px;
+    max-width: 360px;
+    min-height:240px ;
+    min-width: 360px;
+    right: 140px;
+    
+ }
+
+ #file {
+  position: relative;
+  left: 400px;
+  bottom: -100px;
+  width: 180px;
+ }
+
+
+ #drag-drop-zone{
+  position: relative;
+  left: 400px;
+  bottom: 180px;
+  border:solid #fff;
+  border-width: 1px;
+  
+  width: 320px;
+  border-radius: 20px;
+  height: 220px;
+ background: transparent;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#drag-drop-zone p{
+  position: relative;
+  top: 85px;
+  left: 60px;
+
+ 
+}
+
+ #drag-drop-box{
+  position: relative;
+  left: 400px;
+  bottom: 420px;
+  width: 320px;
+  border-radius: 20px;
+  height: 220px;
+  background: orange;
+  border-color: #797171;
+  visibility: hidden;
+ 
+ 
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#drag-drop-box:active{
+  position: relative;
+  left: 400px;
+  bottom: 420px;
+  width: 320px;
+  border-radius: 20px;
+  height: 220px;
+  background: transparent;
+  border-color: #797171;
+  visibility: hidden;
+ 
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
