@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-content: center;
     user-select: none;
+    
   
 }
 .video-background {
@@ -31,9 +32,11 @@ video {
 .container_main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 1300px;
+    width: fit-content;
     gap: 5%;
+    height: 1300px;
     contain: content;
+    height: max-content;
     align-content: center;
     padding: 5%;
 
@@ -46,7 +49,7 @@ video {
     box-sizing: border-box;
     background: #2d2f2d;
     top: 10%;
-    height: 40%;
+    height:480px;
     width: 330px;
     position: relative;
     display: inline-block;
@@ -76,21 +79,21 @@ video {
     background-color: antiquewhite;
 }
 
-#main-container{
+ #main-container{
     border: 25px;
     border-color: aliceblue;
     box-sizing: border-box;
     background: #2d2f2d;
-    height: 1300px;
+    height: max-content;
     width: 800px;
     position: relative;
     display: inline-block;
     align-items: center;
     align-content: center;
     text-align: center;
-   
+    contain: content;
 
-}
+} 
 /*Grid containers*/
 
 #wrap::-webkit-scrollbar{
@@ -121,7 +124,11 @@ video {
 
 
    .grid-item1 {
-    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   gap: .5rem;
+   margin: 40px;
+    
     
    }
 
@@ -699,7 +706,7 @@ section h1 {
     align-self:center;
 }
 section {
-    position: absolute;
+    position: relative;
     left:30px;
     display: inline;
 }
@@ -712,7 +719,7 @@ section p {
 /*social handles*/
 
 #social-handles{
-    display: flex;
+    display:flex;
     align-self: center;
     position: relative;
     align-items: center;
