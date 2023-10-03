@@ -965,3 +965,10 @@ img{
 user-select: none;
 }
 
+
+
+@media screen and(max-width: 393px) {
+    body{
+        background-color: red;
+    }
+}
