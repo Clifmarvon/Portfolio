@@ -967,8 +967,21 @@ user-select: none;
 
 
 
-@media screen and(max-width: 393px) {
+@media screen and(max-width: 722px) {
     body{
         background-color: red;
+    }
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+    }
+    
+    /* Style the video to cover the entire viewport */
+    video {
+        object-fit: cover;
+        width: 0%;
+        height: 0%;
     }
 }
