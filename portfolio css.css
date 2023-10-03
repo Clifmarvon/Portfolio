@@ -967,9 +967,9 @@ user-select: none;
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
     body{
-        background-color: rgb(0, 255, 47);
+        background-color: rgb(290, 203, 35);
     }
     .video-background {
         position: fixed;
@@ -983,5 +983,17 @@ user-select: none;
         object-fit: cover;
         width: 0%;
         height: 0%;
+    }
+    .container_main{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    gap: 5%;
+    height: 1300px;
+    contain: content;
+    height: max-content;
+    align-content: center;
+    padding: 5%;
+
     }
 }
