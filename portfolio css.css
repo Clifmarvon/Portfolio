@@ -967,7 +967,7 @@ user-select: none;
 
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 780px) {
     body{
         background-color: red;
     }
