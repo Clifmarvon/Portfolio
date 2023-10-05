@@ -985,15 +985,68 @@ user-select: none;
         height: 0%;
     }
     .container_main{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     width: fit-content;
-    gap: 5%;
+    gap: 2%;
     height: 1300px;
     contain: content;
     height: max-content;
     align-content: center;
-    padding: 5%;
+    padding: 0%;
 
     }
+    #side_container{
+        border: 25px;
+        border-color: aliceblue;
+        box-sizing: border-box;
+        background: #2d2f2d;
+        top: 10%;
+        left:10%;
+        height:480px;
+        width: 330px;
+        position: relative;
+        display: inline-block;
+
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        contain: content;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    
+    .Profile_Picture_container{
+        display: inherit;
+        top: 10px;
+        height: 100px;
+        width: 100px;
+        align-content: center;
+        
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+        position: relative;
+        background-color: antiquewhite;
+    }
+    
+     #main-container{
+        border: 25px;
+        border-color: aliceblue;
+        box-sizing: border-box;
+        background: #2d2f2d;
+        height: max-content;
+        width: 600px;
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        contain: content;
+    
+    } 
 }
