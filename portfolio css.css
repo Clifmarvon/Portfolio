@@ -1055,8 +1055,8 @@ display: inline-block;
     
     } 
     #navMenu{
-        display:block;
-        background-color:pink;
+        display:list-item;
+        
     }
     .grid-item1 {
         display: flex;
