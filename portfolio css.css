@@ -1042,9 +1042,9 @@ display: inline-block;
         border: 25px;
         border-color: aliceblue;
         box-sizing: border-box;
-        background: #a61948;
+        background: #2d2f2d;
         height: max-content;
-        width: 300px;
+        width: 500px;
         position: relative;
         display: inline-block;
         align-items: center;
@@ -1058,4 +1058,12 @@ display: inline-block;
         display:block;
         background-color:pink;
     }
+    .grid-item1 {
+        display: flex;
+        flex-direction: column;
+       gap: .5rem;
+       margin: 40px;
+        
+        
+       }
 }
