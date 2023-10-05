@@ -1062,7 +1062,8 @@ display: inline-block;
         display: flex;
         flex-direction: column;
        gap: .5rem;
-       margin: 40px;
+       justify-content: center;
+       align-items: center;
         
         
        }
