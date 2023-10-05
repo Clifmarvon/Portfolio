@@ -41,6 +41,10 @@ video {
     padding: 5%;
 
 }
+#navMenu{
+    display:none;
+   
+}
 
 
 #side_container{
@@ -1006,7 +1010,7 @@ user-select: none;
         height:480px;
         width: 330px;
         position: relative;
-        display: inline-block;
+display: inline-block;                                                                                                                                  
 
         align-items: center;
         align-content: center;
@@ -1050,4 +1054,8 @@ user-select: none;
         contain: content;
     
     } 
+    #navMenu{
+        display:block;
+        background-color:pink;
+    }
 }
