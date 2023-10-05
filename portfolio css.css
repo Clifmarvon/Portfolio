@@ -1037,14 +1037,15 @@ user-select: none;
         border: 25px;
         border-color: aliceblue;
         box-sizing: border-box;
-        background: #2d2f2d;
+        background: #a61948;
         height: max-content;
-        width: 700px;
+        width: 300px;
         position: relative;
         display: inline-block;
         align-items: center;
         align-content: center;
         text-align: center;
+        font-size:14px;
         contain: content;
     
     } 
